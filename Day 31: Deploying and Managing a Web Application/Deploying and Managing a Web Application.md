@@ -11,7 +11,7 @@ The Nautilus DevOps team is tasked with deploying a Python-based web application
 6) Application Insights should be `disabled`
 7) Add tags:
    `Name: WebAppLearning` \
-   `Environment: Dev` \
+   `Environment: Dev` 
 
 #### STEPS:
 
