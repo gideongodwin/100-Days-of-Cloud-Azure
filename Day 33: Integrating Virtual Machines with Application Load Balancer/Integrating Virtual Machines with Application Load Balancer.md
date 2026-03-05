@@ -37,7 +37,33 @@ Add an inbound rule to the existing NSG of the VM to allow HTTP traffic on port 
 <img width="633" height="424" alt="Screenshot 2026-03-05 100427" src="https://github.com/user-attachments/assets/0d1f6f97-906f-4b39-9534-be6f815161af" />
 <img width="657" height="581" alt="Screenshot 2026-03-05 100443" src="https://github.com/user-attachments/assets/3c9412fc-07dc-446e-842f-79eddb18b171" />
 
+8. On the Inbound rules tab, add a new rule and configure the settings as follows
 
+<img width="638" height="587" alt="Screenshot 2026-03-05 100652" src="https://github.com/user-attachments/assets/6d98ce87-5ebd-4547-b15e-2695cb8b2f7e" />
+
+9. Create new Health Probe
+
+<img width="643" height="380" alt="Screenshot 2026-03-05 100713" src="https://github.com/user-attachments/assets/3a3f1faf-080f-4904-ac90-9b15dd213672" />
+
+10. Click on Create.
+
+<img width="602" height="577" alt="Screenshot 2026-03-05 100805" src="https://github.com/user-attachments/assets/2d376840-cfc7-4fdc-b444-5f16ea91f8b3" />
+
+11. In the Azure dashboard, select Resource groups
+
+<img width="527" height="174" alt="Screenshot 2026-03-05 101123" src="https://github.com/user-attachments/assets/cf09b020-6a73-43b4-9aae-28f065b4a09a" />
+
+12. Select the existing resource.
+
+<img width="639" height="378" alt="Screenshot 2026-03-05 101133" src="https://github.com/user-attachments/assets/88fecfd7-9dd2-4daa-bdab-886422bf2aec" />
+
+13. Select the existing NSG
+
+<img width="652" height="511" alt="Screenshot 2026-03-05 101158" src="https://github.com/user-attachments/assets/b7a82aba-8b32-4cb7-8df4-ea86b0d2fc39" />
+
+14. Add an inbound rule to the existing NSG of the VM to allow HTTP traffic on port `80`
+
+<img width="631" height="569" alt="Screenshot 2026-03-05 101237" src="https://github.com/user-attachments/assets/95d3e95d-c6bb-4bd5-8db5-c8871e3f9d53" />
 
 
 
