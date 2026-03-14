@@ -11,7 +11,7 @@ Task Requirements:
 - Verify that the website is accessible directly through the Azure Storage static website URL.
 
 #### STEPS:
-1. 1. Sign in to the [Azure Portal](https://portal.azure.com/)
+1. Sign in to the [Azure Portal](https://portal.azure.com/)
 2. From the Storage Accounts dashboard, click on create button
 
 <img width="627" height="237" alt="Screenshot 2026-03-13 112443" src="https://github.com/user-attachments/assets/6249033d-8d87-40d7-bfc9-4db5de3fabd5" />
