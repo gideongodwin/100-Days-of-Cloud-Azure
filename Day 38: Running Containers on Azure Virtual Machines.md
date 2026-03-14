@@ -2,7 +2,7 @@
 
 #### Task Details:
 The Nautilus DevOps team needs to set up an Azure Virtual Machine (VM) to interact with an Azure Blob Storage container for storing and retrieving data. The team must create a private storage account, configure Blob Storage, and test the functionality.
-
+   
 Task:
 1) Azure Virtual Machine Setup: The VM named `nautilus-vm` already exists in the East US region.
 
