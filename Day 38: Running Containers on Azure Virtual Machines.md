@@ -2,8 +2,7 @@
 
 #### Task Details:
 The Nautilus DevOps team needs to set up an Azure Virtual Machine (VM) to interact with an Azure Blob Storage container for storing and retrieving data. The team must create a private storage account, configure Blob Storage, and test the functionality.
-   
-Task:
+
 1) Azure Virtual Machine Setup: The VM named `nautilus-vm` already exists in the East US region.
 
 2) Create a Private Storage Account and Blob Container:
@@ -33,10 +32,9 @@ Task:
 ssh azureuser@<nautilus-vm public-ip>
 sudo -i
  ```  
-7. edit the `testfile.txt` add the following
+7. Edit the `testfile.txt` add the following `"this is a test file and save"`
 ```
-   vi testfile.txt
-   # add "this is a test file and save"
+vi testfile.txt
 ```
 8. Copy the access key and Upload the File to Blob Storage
 ```
