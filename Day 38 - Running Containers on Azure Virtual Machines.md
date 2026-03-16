@@ -22,10 +22,15 @@ The Nautilus DevOps team needs to set up an Azure Virtual Machine (VM) to intera
 1. Sign in to the [Azure Portal](https://portal.azure.com/)
 2. From the Storage Accounts dashboard, click on create button.
 
+<img width="752" height="334" alt="Screenshot 2026-03-12 184248" src="https://github.com/user-attachments/assets/28e4ee18-17c7-4330-ae70-1263c48f1779" />
 
 3. On the Basics tab, select the existing Resource group, and then enter a name for the Storage account.
 
+<img width="769" height="837" alt="Screenshot 2026-03-12 184347" src="https://github.com/user-attachments/assets/4968a62b-d4bb-47ed-9e92-1997af05a71d" />
+
 4. On the storage account, add a new container (private)
+
+<img width="922" height="765" alt="Screenshot 2026-03-12 184701" src="https://github.com/user-attachments/assets/a0d67150-5887-4419-b364-4eda1ca9fa57" />
 
 5. SSH into the `nautilus-vm` and switch to root user
 ```
@@ -37,5 +42,9 @@ sudo -i
 vi testfile.txt
 ```
 8. Copy the access key and Upload the File to Blob Storage
+
+<img width="957" height="683" alt="Screenshot 2026-03-12 185052" src="https://github.com/user-attachments/assets/15407fb6-8769-4fdb-8665-4e1b1d7712df" />
+
+
 ```
 az storage blob upload --account-name nautilusstor7355 --account-key <access-key> --container-name nautilus-container7355 --name testfile.txt --file /home/azureuser/testfile.txt`
