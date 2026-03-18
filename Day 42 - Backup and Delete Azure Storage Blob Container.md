@@ -19,6 +19,7 @@ az storage blob download-batch \
   --source nautilus-blob-15245 \
   --destination /opt/
 ```
+   > You can verify with `ls -l /opt/`
 
 2. Delete the container
 ```
