@@ -1,4 +1,4 @@
-<img width="743" height="260" alt="Screenshot 2026-03-24 220331" src="https://github.com/user-attachments/assets/fe830ac2-6082-4e52-9681-092fa5d5c769" />## Day 44: Integrating Azure Event Hub with Virtual Machines
+## Day 44: Integrating Azure Event Hub with Virtual Machines
 
 ## Task Details:
 
