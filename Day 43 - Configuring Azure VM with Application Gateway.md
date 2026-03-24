@@ -3,7 +3,9 @@
 ## Task Details:
 The Nautilus Development Team needs to set up a new Azure Virtual Machine (VM) and configure it to run a web server. This VM should be part of an Azure Application Gateway (AGW) setup to ensure high availability and better traffic management. The task involves creating a VM, setting up an AGW, configuring a backend pool, and ensuring the web server is accessible via the AGW public IP.
 
-- Create a Network Security Group (NSG): Create an NSG named `datacenter-nsg` and add an inbound security rule `Allow-HTTP` to allow `TCP` traffic on port `80`
+- Create a Network Security Group (NSG):
+  > Create an NSG named `datacenter-nsg`
+  > Add an inbound security rule `Allow-HTTP` to allow `TCP` traffic on port `80`
 
 - Create a Virtual Machine:
   > Create a VM named `datacenter-vm` using any available Ubuntu image. Configure the instance with the following settings:
