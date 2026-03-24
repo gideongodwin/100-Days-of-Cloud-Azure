@@ -66,7 +66,7 @@ Note: Wait for the Application Gateway resource to be fully deployed before proc
 ssh-keygen
 ```
 
-14. Copy the output
+14. Copy the contents of the public key and paste
 ```
 cat .ssh/id_rsa.pub
 ```
