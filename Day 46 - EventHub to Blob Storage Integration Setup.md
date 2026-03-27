@@ -1,4 +1,4 @@
-<img width="1204" height="385" alt="Screenshot 2026-03-26 154025" src="https://github.com/user-attachments/assets/7e3c3d24-88cf-4eee-9e0d-07dad6bbe4d5" />## Day 46 - EventHub to Blob Storage Integration Setup
+## Day 46 - EventHub to Blob Storage Integration Setup
 
 ## Task Details:
 
@@ -111,30 +111,30 @@ The client host already has a Python script named `send_logs.py` located under `
 18. Select Review + create, then create
 
 19.  In the Azure client, copy the `send_logs.py` script from the client host to the `/home/azureuser`.
-```
-scp send_logs.py azureuser@20.51.156.119:/home/azureuser
-```
+    ```
+    scp send_logs.py azureuser@20.51.156.119:/home/azureuser
+    ```
 
 20. ssh into vm `nautilus-vm`
-```
-ssh azureuser@<vm's-public-ip>
-```
+    ```
+    ssh azureuser@<vm's-public-ip>
+    ```
 
 21. Install Required Python Packages
-```
-# Install the Python virtual environment tool
-    sudo apt update
-    sudo apt install python3-venv -y
-
-# Create the new virtual environment (named "env")
-    python3 -m venv ~/env
-
-# Activate the virtual environment
-    source ~/env/bin/activate
-
-# Install the necessary Azure SDK libraries
-    pip install azure-storage-blob azure-eventhub
-```
+    ```
+    # Install the Python virtual environment tool
+        sudo apt update
+        sudo apt install python3-venv -y
+    
+    # Create the new virtual environment (named "env")
+        python3 -m venv ~/env
+    
+    # Activate the virtual environment
+        source ~/env/bin/activate
+    
+    # Install the necessary Azure SDK libraries
+        pip install azure-storage-blob azure-eventhub
+    ```
 
 22. In the Azure portal, navigate to the Event Hub namespace `nautilus-namespace`
  
@@ -147,12 +147,32 @@ ssh azureuser@<vm's-public-ip>
 
 25. Under Security +  Networking > Access Keys, copy the connection string (key1)
 
+<img width="1204" height="385" alt="Screenshot 2026-03-26 154025" src="https://github.com/user-attachments/assets/bd618b80-9203-4693-87bb-2b7794a4ccc1" />
 
 
-Update `send_logs.py` script to send logs to Event Hub + Blob Storage
-```
-# Open the Script
-vi send_logs.py
+26. Update `send_logs.py` script to send logs to Event Hub + Blob Storage
+    ```
+    # Open the Script
+    vi send_logs.py
+    
+    # edit the event_hub_conn_str and blob_conn_str
+    event_hub_conn_str = "Event Hub Connection String"
+    event_hub_name = "nautilus-hub"
+    
+    # Blob config
+    blob_conn_str = "Blob Storage Connection String"
+    container_name = "nautilus-backup-29309"
+    ```
 
+27. Run the Script, repeat it multiple times
+    ```
+    python3 send_logs.py
+    ```
+    > You should see, "Log sent to Event Hub and backed up to Blob Storage"
 
-```
+28. In the Azure portal, navigate to the Storage Account `nautilusst1338` > Containers `nautilus-backup-29309`
+
+29. Verify log files exist
+
+<img width="682" height="292" alt="Screenshot 2026-03-26 160119" src="https://github.com/user-attachments/assets/37a47b8d-0e61-49a8-8dd8-c956c75b9be3" />
+
