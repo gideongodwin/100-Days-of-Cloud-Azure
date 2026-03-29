@@ -1,10 +1,10 @@
 ## Day 5 - Create a Virtual Network (IPv4) in Azure
 
-#### Task Details:
+## Task Details:
 
 Create a Virtual Network (VNet) named `xfusion-vnet` in the `East us region` with `192.168.0.0/24` IPv4 CIDR.
 
-#### STEPS:
+## STEPS:
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/) 
 
