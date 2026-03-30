@@ -1,18 +1,20 @@
 ## Day 6: Create a Subnet in Azure Virtual Network
 
-#### Task Details:
+## Task Details:
+
 The Nautilus DevOps team is strategizing the migration of a portion of their infrastructure to the Azure cloud. Recognizing the scale of this undertaking, they have opted to approach the migration in incremental steps rather than as a single massive transition.
+
 - Create a Virtual Network (VNet) named `devops-vnet` and one subnet named `devops-subnet` within the VNet in the `East US` region. Make sure the IPv4 address range is `10.0.0.0/16`
 
-#### STEPS:
+## STEPS:
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/)
 
-2. Use the global search bar to search for “Virtual network.” From the results, select “Virtual network.”
+2. Search for and select "Virtual Network" in the azure portal search bar.
 
-<img width="1151" height="425" alt="537214353-e8979721-e595-445d-b990-ff309837bbcc" src="https://github.com/user-attachments/assets/f4a680b8-56c0-4bbb-938d-9f0676b5b05d" />
+   <img width="874" height="265" alt="571040243-84e71c27-1095-4988-84d4-9b3c1d063abf" src="https://github.com/user-attachments/assets/97694604-6724-4c1c-9b4a-16f8244e0474" />
 
-3. From the Virtual Network dashboard, click on create button
+3. From the Virtual Network page, click on create
 
 <img width="957" height="875" alt="537295738-ae06d70b-3cd2-4400-9dc7-39d15429cd81" src="https://github.com/user-attachments/assets/48ed7850-0d4c-4e7a-8543-b19386d21a0d" />
  
