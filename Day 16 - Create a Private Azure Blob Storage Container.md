@@ -20,7 +20,7 @@ As part of the data migration process, the Nautilus DevOps team is actively crea
 
 4. Review + create.
 
-5. In the storage account `devopsst6317` > Data storage > Containers, add the Blob container `devops-blob-16273`
+5. In the storage account `devopsst6317` > Data storage > Containers > add the Blob container `devops-blob-16273`
 
     <img width="954" height="828" alt="546760039-98e20ba0-0243-485e-b4e2-ad79aa847334" src="https://github.com/user-attachments/assets/f0a81842-9a39-4518-8f7f-a9fc5ef5ccef" />
 
