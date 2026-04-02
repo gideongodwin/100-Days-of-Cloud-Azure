@@ -37,13 +37,15 @@ For this task, create a network security group (NSG) with the following requirem
     
     <img width="928" height="307" alt="546683242-7d683195-9cc9-41de-a95e-bde107288606" src="https://github.com/user-attachments/assets/233684ee-1d6a-49ad-bed6-0a84d90eac5d" />
 
-8. Select Add inbound security rule again and configure the rule with the following values:
+8. Select Add to create the rule.
+
+9. Select Add inbound security rule again and configure the rule with the following values:
 
     <img width="927" height="825" alt="546683339-acc804b7-94cc-4a6a-83ba-0b7c7a5e0896" src="https://github.com/user-attachments/assets/5dde3a5f-3530-4c9c-94b9-68c76718bacb" />
     
     <img width="935" height="305" alt="546683482-4dab0b32-1127-49b3-a3ff-336fe5b03c97" src="https://github.com/user-attachments/assets/a6542e36-8158-49a7-8a43-965a73233e42" />
 
-9. Select Add to create the rule.
+10. Select Add to create the rule.
 
 
 
