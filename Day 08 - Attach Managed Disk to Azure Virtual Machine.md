@@ -14,7 +14,7 @@ An existing VM named `nautilus-vm` and a managed disk named `nautilus-disk` alre
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/)
 
-2. Search for and select Virtual machines. 
+2. Search for and select Virtual machines in the azure portal search bar.
 
 3. Select the existing vm `nautilus-vm` from the list.
 
