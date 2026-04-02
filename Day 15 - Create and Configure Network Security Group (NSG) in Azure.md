@@ -29,7 +29,7 @@ For this task, create a network security group (NSG) with the following requirem
 
 5.  Review + Create.
 
-6. From the NSG > Settings > Inbound security rules.
+6. From the NSG > Settings > Inbound security rules > + Add
 
 7. Configure the rule with the following values:
 
