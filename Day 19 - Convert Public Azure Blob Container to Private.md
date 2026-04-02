@@ -25,17 +25,17 @@ The `nautilus-container-23484` is currently public, and `nautilus-priv-861` is p
 
 4. In the storage account menu, under Data storage, select Containers
 
-<img width="650" height="437" alt="548112660-3663c54b-c0cd-4344-80b4-79f47fee8223" src="https://github.com/user-attachments/assets/2e126177-1e4f-4695-a3be-49cef572bb81" />
+   <img width="650" height="437" alt="548112660-3663c54b-c0cd-4344-80b4-79f47fee8223" src="https://github.com/user-attachments/assets/2e126177-1e4f-4695-a3be-49cef572bb81" />
 
 5. Select `nautilus-container-23484` from the list of containers, and then select Change access level
 
-<img width="934" height="426" alt="548127270-50d3e039-a684-44c3-adfb-1a5b7330365b" src="https://github.com/user-attachments/assets/492b5600-54ca-4368-b06e-b644d047f5bd" />
+   <img width="934" height="426" alt="548127270-50d3e039-a684-44c3-adfb-1a5b7330365b" src="https://github.com/user-attachments/assets/492b5600-54ca-4368-b06e-b644d047f5bd" />
 
 6. In the Change access level pane, set Public access level to Private (no anonymous access).
 
 7. Select OK to save the changes.
 
-<img width="682" height="489" alt="Screenshot 2026-02-11 083438" src="https://github.com/user-attachments/assets/7acaf152-d130-4435-b3fe-7ae39d55293f" />
+   <img width="682" height="459" alt="548129239-7acaf152-d130-4435-b3fe-7ae39d55293f" src="https://github.com/user-attachments/assets/ca946644-f134-4a49-8df7-c772e3f3343b" />
 
 
 
