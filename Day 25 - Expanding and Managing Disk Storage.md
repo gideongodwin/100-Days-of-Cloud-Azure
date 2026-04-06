@@ -43,29 +43,29 @@ This task requires resizing the existing VM disk and mounting a new data disk to
    <img width="676" height="328" alt="Screenshot 2026-02-20 095405" src="https://github.com/user-attachments/assets/e364e561-d308-439b-907a-f174acff2b7d" />
 
 10. On the azure client, connect to the vm
-   ```
-   ssh azureuser@<vm-public-ip>
-   ```
+      ```
+      ssh azureuser@<vm-public-ip>
+      ```
 
 11. List Block Devices
-   ```
-   lsblk
-   ```
+      ```
+      lsblk
+      ```
 
 12. Create a filesystem on the Disk
-   ```
-   sudo mkfs.xfs /dev/sda
-   ```
+      ```
+      sudo mkfs.xfs /dev/sda
+      ```
 
 13. Creates a directory that will be used to access the disk
-   ```
-   sudo mkdir /mnt/nautilus-disk
-   ```
+      ```
+      sudo mkdir /mnt/nautilus-disk
+      ```
 
 14. Attach the formatted disk to the directory
-   ```
-   sudo mount /dev/sda /mnt/nautilus-disk
-   ```
+      ```
+      sudo mount /dev/sda /mnt/nautilus-disk
+      ```
 
 15. Verify changes
    ```
