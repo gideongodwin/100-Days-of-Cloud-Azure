@@ -45,10 +45,33 @@ The name of the VNet must be `nautilus-priv-vnet`
 
 <img width="590" height="290" alt="554067274-f8d092c0-3220-4c26-850e-621433f049e9" src="https://github.com/user-attachments/assets/4d1cf22b-3534-4441-8e91-d68c75e51f20" />
 
-10. On the Networking tab, create a new Network security group, then add an inbound security rule.
+10. On the Networking tab, create a new Network security group
 
   <img width="680" height="428" alt="Screenshot 2026-02-24 100630" src="https://github.com/user-attachments/assets/254d0795-6100-4e15-a341-47aefc1547da" />
 
-11. Review + Create
+11.In the left-hand menu of the NSG, under Settings, select Inbound security rules
+
+12. Click + Add
+
+13. Configure the rule to allow `SSH` only from the VNet's CIDR block:
+    ```
+    Source: IP Addresses.
+    
+    Source IP addresses/CIDR ranges: 10.0.0.0/16
+    
+    Destination port ranges: 22
+    
+    Protocol: TCP
+    
+    Action: Allow
+    
+    Priority: 100
+    
+    Name: Allow-SSH-From-VNet.
+    ```
+
+14. Click Add
+
+15. Review + Create
 
 
