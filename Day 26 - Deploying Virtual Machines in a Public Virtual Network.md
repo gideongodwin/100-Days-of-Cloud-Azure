@@ -20,7 +20,7 @@ The Nautilus DevOps Team has received a request from the Networking Team to set 
     
     <img width="678" height="254" alt="Screenshot 2026-02-23 111905" src="https://github.com/user-attachments/assets/e155f6d2-aec2-42ba-8122-92fe8876e2b2" />
 
-4. On the Basics tab of the Create virtual network page, enter the VM name and select the appropriate region.
+4. On the Basics tab, configure the following
  
    <img width="581" height="279" alt="553450470-79ffcfc2-239f-4d03-ad36-6dd8bdb08d53" src="https://github.com/user-attachments/assets/40fe1742-9081-43f3-8a8c-3d9e045659e2" />
 
