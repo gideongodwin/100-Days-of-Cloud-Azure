@@ -28,7 +28,7 @@ You need to create a web app using the following specifications:
 
 2. Search for and select "App Service Plan" in the azure portal search bar.
 
-<img width="582" height="183" alt="Screenshot 2026-03-03 093318" src="https://github.com/user-attachments/assets/176af66d-3bdc-4d10-9a73-dd521d60b020" />
+   <img width="582" height="183" alt="Screenshot 2026-03-03 093318" src="https://github.com/user-attachments/assets/176af66d-3bdc-4d10-9a73-dd521d60b020" />
 
 3. Click on Create
 
